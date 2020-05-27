@@ -752,20 +752,20 @@ Image Symbol Table
     i.SVC_Handler                            0x08000f08   Section        0  stm32g4xx_it.o(i.SVC_Handler)
     i.SysTick_Handler                        0x08000f0a   Section        0  stm32g4xx_it.o(i.SysTick_Handler)
     i.SystemClock_Config                     0x08000f14   Section        0  main.o(i.SystemClock_Config)
-    i.SystemInit                             0x0800108c   Section        0  system_stm32g4xx.o(i.SystemInit)
-    i.UsageFault_Handler                     0x080010a8   Section        0  stm32g4xx_it.o(i.UsageFault_Handler)
-    i.__NVIC_GetPriorityGrouping             0x080010ac   Section        0  stm32g4xx_hal_cortex.o(i.__NVIC_GetPriorityGrouping)
-    __NVIC_GetPriorityGrouping               0x080010ad   Thumb Code    10  stm32g4xx_hal_cortex.o(i.__NVIC_GetPriorityGrouping)
-    i.__NVIC_SetPriority                     0x080010bc   Section        0  stm32g4xx_hal_cortex.o(i.__NVIC_SetPriority)
-    __NVIC_SetPriority                       0x080010bd   Thumb Code    32  stm32g4xx_hal_cortex.o(i.__NVIC_SetPriority)
-    i.__scatterload_copy                     0x080010e4   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x080010f2   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x080010f4   Section       14  handlers.o(i.__scatterload_zeroinit)
-    i.main                                   0x08001104   Section        0  main.o(i.main)
-    .constdata                               0x08001234   Section        6  main.o(.constdata)
-    CHANNEL_OFFSET_TAB                       0x08001234   Data           6  main.o(.constdata)
-    .constdata                               0x0800123a   Section        6  adc.o(.constdata)
-    CHANNEL_OFFSET_TAB                       0x0800123a   Data           6  adc.o(.constdata)
+    i.SystemInit                             0x08001078   Section        0  system_stm32g4xx.o(i.SystemInit)
+    i.UsageFault_Handler                     0x08001094   Section        0  stm32g4xx_it.o(i.UsageFault_Handler)
+    i.__NVIC_GetPriorityGrouping             0x08001098   Section        0  stm32g4xx_hal_cortex.o(i.__NVIC_GetPriorityGrouping)
+    __NVIC_GetPriorityGrouping               0x08001099   Thumb Code    10  stm32g4xx_hal_cortex.o(i.__NVIC_GetPriorityGrouping)
+    i.__NVIC_SetPriority                     0x080010a8   Section        0  stm32g4xx_hal_cortex.o(i.__NVIC_SetPriority)
+    __NVIC_SetPriority                       0x080010a9   Thumb Code    32  stm32g4xx_hal_cortex.o(i.__NVIC_SetPriority)
+    i.__scatterload_copy                     0x080010d0   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x080010de   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x080010e0   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.main                                   0x080010f0   Section        0  main.o(i.main)
+    .constdata                               0x08001220   Section        6  main.o(.constdata)
+    CHANNEL_OFFSET_TAB                       0x08001220   Data           6  main.o(.constdata)
+    .constdata                               0x08001226   Section        6  adc.o(.constdata)
+    CHANNEL_OFFSET_TAB                       0x08001226   Data           6  adc.o(.constdata)
     .data                                    0x20000000   Section       16  main.o(.data)
     .data                                    0x20000010   Section       12  stm32g4xx_hal.o(.data)
     .data                                    0x2000001c   Section        4  system_stm32g4xx.o(.data)
@@ -899,15 +899,15 @@ Image Symbol Table
     PendSV_Handler                           0x08000f07   Thumb Code     2  stm32g4xx_it.o(i.PendSV_Handler)
     SVC_Handler                              0x08000f09   Thumb Code     2  stm32g4xx_it.o(i.SVC_Handler)
     SysTick_Handler                          0x08000f0b   Thumb Code     8  stm32g4xx_it.o(i.SysTick_Handler)
-    SystemClock_Config                       0x08000f15   Thumb Code   342  main.o(i.SystemClock_Config)
-    SystemInit                               0x0800108d   Thumb Code    24  system_stm32g4xx.o(i.SystemInit)
-    UsageFault_Handler                       0x080010a9   Thumb Code     4  stm32g4xx_it.o(i.UsageFault_Handler)
-    __scatterload_copy                       0x080010e5   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x080010f3   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x080010f5   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    main                                     0x08001105   Thumb Code   292  main.o(i.main)
-    Region$$Table$$Base                      0x08001240   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08001260   Number         0  anon$$obj.o(Region$$Table)
+    SystemClock_Config                       0x08000f15   Thumb Code   322  main.o(i.SystemClock_Config)
+    SystemInit                               0x08001079   Thumb Code    24  system_stm32g4xx.o(i.SystemInit)
+    UsageFault_Handler                       0x08001095   Thumb Code     4  stm32g4xx_it.o(i.UsageFault_Handler)
+    __scatterload_copy                       0x080010d1   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x080010df   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x080010e1   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    main                                     0x080010f1   Thumb Code   292  main.o(i.main)
+    Region$$Table$$Base                      0x0800122c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0800124c   Number         0  anon$$obj.o(Region$$Table)
     uhADCxConvertedData                      0x20000000   Data          12  main.o(.data)
     uhInjADCxConvertedData1                  0x2000000c   Data           2  main.o(.data)
     uhInjADCxConvertedData2                  0x2000000e   Data           2  main.o(.data)
@@ -925,9 +925,9 @@ Memory Map of the image
 
   Image Entry point : 0x080001d9
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00001280, Max: 0x00020000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000126c, Max: 0x00020000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00001260, Max: 0x00020000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0000124c, Max: 0x00020000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -989,19 +989,19 @@ Memory Map of the image
     0x08000f08   0x00000002   Code   RO          365    i.SVC_Handler       stm32g4xx_it.o
     0x08000f0a   0x00000008   Code   RO          366    i.SysTick_Handler   stm32g4xx_it.o
     0x08000f12   0x00000002   PAD
-    0x08000f14   0x00000178   Code   RO           20    i.SystemClock_Config  main.o
-    0x0800108c   0x0000001c   Code   RO         2489    i.SystemInit        system_stm32g4xx.o
-    0x080010a8   0x00000004   Code   RO          367    i.UsageFault_Handler  stm32g4xx_it.o
-    0x080010ac   0x00000010   Code   RO         2303    i.__NVIC_GetPriorityGrouping  stm32g4xx_hal_cortex.o
-    0x080010bc   0x00000028   Code   RO         2304    i.__NVIC_SetPriority  stm32g4xx_hal_cortex.o
-    0x080010e4   0x0000000e   Code   RO         2545    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x080010f2   0x00000002   Code   RO         2546    i.__scatterload_null  mc_w.l(handlers.o)
-    0x080010f4   0x0000000e   Code   RO         2547    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08001102   0x00000002   PAD
-    0x08001104   0x00000130   Code   RO           21    i.main              main.o
-    0x08001234   0x00000006   Data   RO           22    .constdata          main.o
-    0x0800123a   0x00000006   Data   RO          273    .constdata          adc.o
-    0x08001240   0x00000020   Data   RO         2543    Region$$Table       anon$$obj.o
+    0x08000f14   0x00000164   Code   RO           20    i.SystemClock_Config  main.o
+    0x08001078   0x0000001c   Code   RO         2489    i.SystemInit        system_stm32g4xx.o
+    0x08001094   0x00000004   Code   RO          367    i.UsageFault_Handler  stm32g4xx_it.o
+    0x08001098   0x00000010   Code   RO         2303    i.__NVIC_GetPriorityGrouping  stm32g4xx_hal_cortex.o
+    0x080010a8   0x00000028   Code   RO         2304    i.__NVIC_SetPriority  stm32g4xx_hal_cortex.o
+    0x080010d0   0x0000000e   Code   RO         2545    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x080010de   0x00000002   Code   RO         2546    i.__scatterload_null  mc_w.l(handlers.o)
+    0x080010e0   0x0000000e   Code   RO         2547    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x080010ee   0x00000002   PAD
+    0x080010f0   0x00000130   Code   RO           21    i.main              main.o
+    0x08001220   0x00000006   Data   RO           22    .constdata          main.o
+    0x08001226   0x00000006   Data   RO          273    .constdata          adc.o
+    0x0800122c   0x00000020   Data   RO         2543    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000420, Max: 0x00008000, ABSOLUTE)
@@ -1024,7 +1024,7 @@ Image component sizes
       1254         74          6          0          0      84403   adc.o
        236         12          0          0          0      31457   dma.o
         56          4          0          0          0       6567   gpio.o
-      1196         94          6         16          0     587062   main.o
+      1176         94          6         16          0     586994   main.o
         36          8        472          0       1024        852   startup_stm32g431xx.o
        142         22          0         12          0       3211   stm32g4xx_hal.o
        270         22          0          0          0      33802   stm32g4xx_hal_cortex.o
@@ -1036,7 +1036,7 @@ Image component sizes
         28          4          0          4          0       1183   system_stm32g4xx.o
 
     ----------------------------------------------------------------------
-      4064        276        516         32       1024     861913   Object Totals
+      4044        276        516         32       1024     861845   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         10          0          0          0          0          0   (incl. Padding)
 
@@ -1076,15 +1076,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      4188        292        516         32       1024     858193   Grand Totals
-      4188        292        516         32       1024     858193   ELF Image Totals
-      4188        292        516         32          0          0   ROM Totals
+      4168        292        516         32       1024     858125   Grand Totals
+      4168        292        516         32       1024     858125   ELF Image Totals
+      4168        292        516         32          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 4704 (   4.59kB)
+    Total RO  Size (Code + RO Data)                 4684 (   4.57kB)
     Total RW  Size (RW Data + ZI Data)              1056 (   1.03kB)
-    Total ROM Size (Code + RO Data + RW Data)       4736 (   4.63kB)
+    Total ROM Size (Code + RO Data + RW Data)       4716 (   4.61kB)
 
 ==============================================================================
 
